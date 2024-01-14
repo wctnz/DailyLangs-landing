@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap");
+
+.card {
+  width: 408.49px;
+  height: 341px;
+  border-radius: 20px;
+  background-color: #c05aff;
+  z-index: -10;
+  margin-bottom: 20px;
+}
+
+.p1 {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
+
+.p2 {
+  color: #fffd50;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+}
+
+.imgGirl {
+  width: 50%;
+  position: relative;
+  bottom: 253px;
+  right: 90px;
+  z-index: -5;
+}
+
+.imgFlag {
+  position: relative;
+  bottom: 265px;
+  right: 160px;
+}
+
+.imgLettersAe {
+  position: relative;
+  bottom: 500px;
+  left: 230px;
+  z-index: -6;
+}
+
+.imgLettersAz {
+  position: relative;
+  bottom: 570px;
+  left: 120px;
+  z-index: -6;
+}
+
+.name {
+  position: relative;
+  width: 10rem;
+  background-color: #c9ff50;
+  border: 6px solid #c9ff50;
+  border-radius: 15px;
+  left: 140px;
+  bottom: 30px;
+}
+
+.textFixed {
+  color: #ff50ba;
+  text-decoration: line-through;
+}
+
+.price1 {
+  position: relative;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  left: 300px;
+  bottom: 70px;
+  width: 3.3rem;
+}
+
+.price11 {
+  position: relative;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ff50ba;
+  text-decoration: line-through;
+  left: 300px;
+  bottom: 109px;
+  width: 3.3rem;
+}
+
+.price2 {
+  position: relative;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  left: 230px;
+  bottom: 5px;
+}
+
+.discount {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 0.6rem;
+  color: white;
+  left: 340px;
+  bottom: 52px;
+  width: 10rem;
+  background-color: #ff50ba;
+  border: 6px solid #ff50ba;
+  border-radius: 15px;
+  width: 1.2rem;
+  height: 0.4rem;
+  text-align: center;
+}
+
+.linkDetails {
+  position: relative;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  left: 280px;
+  bottom: 280px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media all and (max-width: 393px) {
+}

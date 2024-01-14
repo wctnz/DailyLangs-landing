@@ -1,0 +1,256 @@
+.mainContainer {
+  display: flex;
+}
+
+.containerLeft {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.containerRight {
+  width: 75%;
+}
+
+.language {
+  width: 200px;
+  height: 51px;
+  border: 2px solid #c05aff;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 12px 0 0 70px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 4.5em) 1.4em;
+  background-size: 1rem;
+  background-image: url("../../assets/down.svg");
+  font-size: 15px;
+  padding-bottom: 10px;
+  background-color: #c05aff;
+  color: white;
+  font-family: "Mulish", sans-serif;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #c05aff;
+  height: 1px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  margin-top: -7px;
+}
+
+.spanLanguage {
+  margin-right: 10px;
+}
+
+.burgerMenu2 {
+  width: 0px;
+  height: 0px;
+}
+
+.duration {
+  margin: 20px 20px 0px 0px;
+  font-family: "Mulish", sans-serif;
+}
+
+.complexity {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
+
+.spanComplexity {
+  margin-bottom: 20px;
+}
+
+.radioContainer {
+  margin-bottom: 10px;
+}
+
+.skills {
+  margin: 20px 80px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
+
+.spanSkills {
+  margin-bottom: 20px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 120px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.courses {
+  margin: 40px 0px 40px 0px;
+}
+
+.spanCourses {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.spanCourses.first {
+  margin-right: 5px;
+}
+
+.spanCourses.second {
+  background-color: #c9ff50;
+  border: 5px solid #c9ff50;
+  border-radius: 50px;
+}
+
+.imgStar {
+  position: absolute;
+  right: 40px;
+  bottom: -430px;
+  z-index: -10;
+}
+
+.imgLines {
+  position: relative;
+  left: -110px;
+  bottom: -10px;
+}
+
+.imgEllipse {
+  position: absolute;
+  right: -80px;
+  bottom: -10px;
+  z-index: -10;
+}
+
+@media all and (max-width: 393px) {
+  .language {
+    width: 200px;
+    border: 2px solid #c05aff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    padding: 10px 0 0 70px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 4.5em) 1.4em;
+    background-size: 1rem;
+    background-image: url("../../assets/down.svg");
+    font-size: 15px;
+    padding-bottom: 10px;
+    background-color: #c05aff;
+    color: white;
+    font-family: "Mulish", sans-serif;
+  }
+
+  .duration {
+    display: none;
+  }
+
+  .complexity {
+    display: none;
+  }
+
+  .skills {
+    display: none;
+  }
+
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spanCourses {
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .containerLeft {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  .containerRight {
+    width: 100%;
+  }
+
+  .imgLines {
+    display: none;
+  }
+
+  .imgEllipse {
+    display: none;
+  }
+
+  .imgStar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    bottom: 370px;
+    z-index: -10;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .courses {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  .spanCourses.first {
+    margin-right: 5px;
+    width: 100px;
+  }
+
+  .spanCourses.second {
+    background-color: #c9ff50;
+    border: 5px solid #c9ff50;
+    border-radius: 50px;
+    width: 320px;
+  }
+
+  .languageSection {
+    width: 267px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .burgerMenu2 {
+    background-image: url("../../assets/burgerMenu2.png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+}

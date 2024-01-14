@@ -1,0 +1,129 @@
+.headerContainer {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contaiterRight {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  font-family: "Mulish", sans-serif;
+}
+
+.contaiterRight a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.contaiterRight a:hover {
+  color: #c05aff;
+}
+
+.containterSearchUserLanguage {
+  display: flex;
+  margin-right: 120px;
+}
+
+.dailyLangs {
+  margin-left: 120px;
+  box-sizing: border-box;
+  padding-bottom: 12px;
+  font-family: "Mulish", sans-serif;
+  color: #c05aff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.search {
+  background-repeat: no-repeat;
+  background-size: 1.3rem;
+  background-image: url("../../assets/search.svg");
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.userPic2 {
+  background-image: url("../../assets/maskGroup.png");
+  width: 40px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.chooseLanguage {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 80% 30%;
+  background-size: 1rem;
+  background-image: url("../../assets/down.svg");
+  font-size: 15px;
+  padding-bottom: 10px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.burgerMenu1 {
+  width: 0px;
+  height: 0px;
+}
+
+@media all and (max-width: 393px) {
+  .linksMenu {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .chooseLanguage {
+    display: none;
+  }
+
+  .burgerMenu1 {
+    background-image: url("../../assets/burgerMenu1.png");
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .dailyLangs {
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding-bottom: 12px;
+    font-family: "Mulish", sans-serif;
+    color: #c05aff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .contaiterRight {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    font-family: "Mulish", sans-serif;
+  }
+
+  .containterSearchUserLanguage {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .headerContainer {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
